@@ -10,12 +10,14 @@ import java.util.Properties;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -39,15 +41,18 @@ public class Luma_Booking3_para {
 	WebDriver driver;
 	  @Test(dataProvider = "dp")
 	  public void f(String fname, String lname) throws Exception {
-		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		  
+		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		  Luma_Login_POM obj = new Luma_Login_POM(driver);
 		  long timestamp = new Date().getTime();
 		  System.out.println("The time is: "+timestamp);
+		  Capabilities cap = ((RemoteWebDriver) driver).getCapabilities();
+		  String browserName = cap.getBrowserName().toLowerCase();
 		  
 		  ExtentReports extent=new ExtentReports();
-			ExtentSparkReporter spark=new ExtentSparkReporter(timestamp+"luma2.html");
+			ExtentSparkReporter spark=new ExtentSparkReporter(timestamp+"parallelbrowsr.html");
 			extent.attachReporter(spark);
-			ExtentTest test=extent.createTest("Verify the Title of Luma");
+			ExtentTest test=extent.createTest("Checking Parallel Browsing: "+browserName);
 			obj.gotologin();
 			String title=driver.getTitle();
 			System.out.println("Title: "+title);
@@ -133,8 +138,9 @@ public class Luma_Booking3_para {
 		  obj.selectsize();
 		  obj.selectclr();
 		  obj.addtocart();
-		  obj.checkcart();
 		  Thread.sleep(3000);
+		  obj.checkcart();
+		  Thread.sleep(5000);
 		  if(obj.checkitem()) {
 			  test.pass("item added");
 		  }else {

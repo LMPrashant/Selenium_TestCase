@@ -106,7 +106,7 @@ public class Luma_Booking2 {
 					  .build());
 			  //test.addScreenCaptureFromPath(path);
 		  }
-		  
+		 
 		  obj.entername(fname);
 		  obj.enterpword(lname);
 		  obj.clicklogin();

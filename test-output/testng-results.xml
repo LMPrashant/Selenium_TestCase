@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-28T03:53:28 IST" name="Default suite" finished-at="2024-01-28T03:54:03 IST" duration-ms="34927">
+  <suite started-at="2024-01-30T13:15:25 IST" name="Suite" finished-at="2024-01-30T13:17:15 IST" duration-ms="110357">
     <groups>
     </groups>
-    <test started-at="2024-01-28T03:53:28 IST" name="Default test" finished-at="2024-01-28T03:54:03 IST" duration-ms="34927">
-      <class name="TestCase.Luma_Booking">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:53:28 IST" name="beforeSuite" finished-at="2024-01-28T03:53:28 IST" duration-ms="9" status="PASS">
+    <test started-at="2024-01-30T13:15:25 IST" name="Chrome_Test" finished-at="2024-01-30T13:16:23 IST" duration-ms="57691">
+      <class name="TestCase.Luma_Booking3_para">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:15:25 IST" name="beforeSuite" finished-at="2024-01-30T13:15:25 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:53:28 IST" name="beforeTest" finished-at="2024-01-28T03:53:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:15:25 IST" name="beforeTest" finished-at="2024-01-30T13:15:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:53:28 IST" name="beforeClass" finished-at="2024-01-28T03:53:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:15:25 IST" name="beforeClass" finished-at="2024-01-30T13:15:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:53:29 IST" name="beforeMethod" finished-at="2024-01-28T03:53:34 IST" duration-ms="5314" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:15:27 IST" name="beforeMethod" finished-at="2024-01-30T13:15:36 IST" duration-ms="9085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:53:34 IST" name="f" data-provider="dp" finished-at="2024-01-28T03:53:46 IST" duration-ms="12007" status="PASS">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:15:36 IST" name="f" data-provider="dp" finished-at="2024-01-30T13:15:55 IST" duration-ms="19212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,15 +46,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:53:46 IST" name="beforeMethod" finished-at="2024-01-28T03:53:51 IST" duration-ms="4425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:53:46 IST" name="afterMethod" finished-at="2024-01-28T03:53:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:15:55 IST" name="afterMethod" finished-at="2024-01-30T13:15:55 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:53:51 IST" name="f" data-provider="dp" finished-at="2024-01-28T03:54:03 IST" duration-ms="12492" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:15:55 IST" name="beforeMethod" finished-at="2024-01-30T13:16:04 IST" duration-ms="9151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:16:04 IST" name="f" data-provider="dp" finished-at="2024-01-30T13:16:23 IST" duration-ms="18430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,23 +77,187 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:54:03 IST" name="afterMethod" finished-at="2024-01-28T03:54:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:16:23 IST" name="afterMethod" finished-at="2024-01-30T13:16:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:54:03 IST" name="afterClass" finished-at="2024-01-28T03:54:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:16:23 IST" name="afterClass" finished-at="2024-01-30T13:16:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:54:03 IST" name="afterTest" finished-at="2024-01-28T03:54:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:16:23 IST" name="afterTest" finished-at="2024-01-30T13:16:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCase.Luma_Booking@4c178a76]" started-at="2024-01-28T03:54:03 IST" name="afterSuite" finished-at="2024-01-28T03:54:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCase.Luma_Booking3_para@1757cd72]" started-at="2024-01-30T13:17:15 IST" name="afterSuite" finished-at="2024-01-30T13:17:15 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- TestCase.Luma_Booking -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- TestCase.Luma_Booking3_para -->
+    </test> <!-- Chrome_Test -->
+    <test started-at="2024-01-30T13:15:25 IST" name="Edge_Test" finished-at="2024-01-30T13:16:27 IST" duration-ms="61658">
+      <class name="TestCase.Luma_Booking3_para">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:15:25 IST" name="beforeTest" finished-at="2024-01-30T13:15:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:15:25 IST" name="beforeClass" finished-at="2024-01-30T13:15:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:15:27 IST" name="beforeMethod" finished-at="2024-01-30T13:15:39 IST" duration-ms="12330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:15:39 IST" name="f" data-provider="dp" finished-at="2024-01-30T13:15:58 IST" duration-ms="18569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parsh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parshu#@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:15:58 IST" name="afterMethod" finished-at="2024-01-30T13:15:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:15:58 IST" name="beforeMethod" finished-at="2024-01-30T13:16:09 IST" duration-ms="11351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:16:09 IST" name="f" data-provider="dp" finished-at="2024-01-30T13:16:27 IST" duration-ms="17605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohi@#123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:16:27 IST" name="afterMethod" finished-at="2024-01-30T13:16:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:16:27 IST" name="afterTest" finished-at="2024-01-30T13:16:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestCase.Luma_Booking3_para@5e5d171f]" started-at="2024-01-30T13:16:27 IST" name="afterClass" finished-at="2024-01-30T13:16:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCase.Luma_Booking3_para -->
+    </test> <!-- Edge_Test -->
+    <test started-at="2024-01-30T13:15:25 IST" name="Firefox_Test" finished-at="2024-01-30T13:17:15 IST" duration-ms="110357">
+      <class name="TestCase.Luma_Booking3_para">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:15:25 IST" name="beforeTest" finished-at="2024-01-30T13:15:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:15:25 IST" name="beforeClass" finished-at="2024-01-30T13:15:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:15:27 IST" name="beforeMethod" finished-at="2024-01-30T13:15:46 IST" duration-ms="19592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:15:46 IST" name="f" data-provider="dp" finished-at="2024-01-30T13:16:25 IST" duration-ms="38737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parsh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parshu#@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:16:25 IST" name="afterMethod" finished-at="2024-01-30T13:16:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:16:25 IST" name="beforeMethod" finished-at="2024-01-30T13:16:42 IST" duration-ms="16900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:16:42 IST" name="f" data-provider="dp" finished-at="2024-01-30T13:17:15 IST" duration-ms="33328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohi@#123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:17:15 IST" name="afterMethod" finished-at="2024-01-30T13:17:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:17:15 IST" name="afterClass" finished-at="2024-01-30T13:17:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCase.Luma_Booking3_para@561b6512]" started-at="2024-01-30T13:17:15 IST" name="afterTest" finished-at="2024-01-30T13:17:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestCase.Luma_Booking3_para -->
+    </test> <!-- Firefox_Test -->
+  </suite> <!-- Suite -->
 </testng-results>
